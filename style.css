@@ -1,4 +1,4 @@
-/* Resetando margens e paddings padrões */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   padding: 20px;
 }
 
-/* Estilo para o cabeçalho */
+/* Header */
 header {
   background-color: #333;
   color: white;
@@ -35,7 +35,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* Estilo para o conteúdo principal */
+/* Main */
 main {
   background-color: white;
   padding: 20px;
@@ -46,14 +46,18 @@ main {
 
 main h2 {
   color: #333;
+  margin-bottom: 15px;
 }
 
 main h3 {
   margin-top: 20px;
+  color: #444;
 }
 
 main ul {
   margin-top: 15px;
+  list-style: disc;
+  margin-left: 20px;
 }
 
 main ul li {
@@ -61,10 +65,34 @@ main ul li {
   font-size: 16px;
 }
 
+/* Características */
+.caracteristica {
+  margin-bottom: 20px;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Footer */
 footer {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
   color: #777;
 }
-
