@@ -48,6 +48,10 @@ main h2 {
   color: #333;
 }
 
+main h3 {
+  margin-top: 20px;
+}
+
 main ul {
   margin-top: 15px;
 }
@@ -63,3 +67,4 @@ footer {
   font-size: 14px;
   color: #777;
 }
+
