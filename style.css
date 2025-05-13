@@ -70,6 +70,14 @@ main ul li {
   margin-bottom: 20px;
 }
 
+/* Imagens nas características */
+.caracteristica img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
 /* Tabela */
 table {
   width: 100%;
