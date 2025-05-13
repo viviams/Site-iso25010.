@@ -1,36 +1,65 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
+/* Resetando margens e paddings padrões */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-main {
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
   padding: 20px;
 }
 
-.caracteristica {
-  background: white;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-.caracteristica img {
-  width: 100px;
-  display: block;
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+  color: #333;
+}
+
+main ul {
+  margin-top: 15px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #777;
 }
