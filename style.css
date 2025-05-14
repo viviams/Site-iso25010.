@@ -45,7 +45,7 @@ main {
 }
 
 main h2 {
-  color: #333;
+  color: #d63384;
   margin-bottom: 15px;
 }
 
@@ -86,7 +86,7 @@ table {
 }
 
 table th {
-  background-color: #333;
+  background-color: #d63384;
   color: white;
   padding: 10px;
 }
