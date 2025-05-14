@@ -8,15 +8,15 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #121212;
-  color: #f4f4f4;
+  background-color: #ffffff; /* Fundo branco */
+  color: #121212; /* Texto preto */
   padding: 20px;
 }
 
 /* Header */
 header {
-  background-color: #cc0000;
-  color: #f4f4f4;
+  background-color: #cc0000; /* Vermelho escuro */
+  color: white;
   text-align: center;
   padding: 20px;
 }
@@ -26,7 +26,7 @@ header h1 {
 }
 
 header nav a {
-  color: #f4f4f4;
+  color: white;
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
@@ -34,16 +34,16 @@ header nav a {
 
 header nav a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: #f4f4f4;
 }
 
 /* Main */
 main {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(204, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main h2 {
@@ -53,7 +53,7 @@ main h2 {
 
 main h3 {
   margin-top: 20px;
-  color: #e0e0e0;
+  color: #333333;
 }
 
 main ul {
@@ -85,20 +85,19 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: #1e1e1e;
 }
 
 table th {
   background-color: #cc0000;
-  color: #f4f4f4;
+  color: white;
   padding: 10px;
 }
 
 table td {
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   padding: 10px;
-  color: #f4f4f4;
-  background-color: #2a2a2a;
+  color: #121212;
+  background-color: #f9f9f9;
   text-align: left;
 }
 
@@ -107,5 +106,5 @@ footer {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
-  color: #888;
+  color: #555555;
 }
