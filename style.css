@@ -109,4 +109,16 @@ footer {
   color: #555555;
 }
 
+/* Características */
+.caracteristica h3 {
+  color: #cc0000; /* Cor vermelha no título das características */
+  margin-top: 20px;
+}
+
+.caracteristica {
+  margin-bottom: 20px;
+  border-left: 5px solid #cc0000; /* Borda vermelha à esquerda das características */
+  padding-left: 15px; /* Adiciona espaçamento à esquerda */
+}
+
 
