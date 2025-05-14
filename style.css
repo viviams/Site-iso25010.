@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Geral */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -72,9 +73,8 @@ main ul li {
   margin-bottom: 20px;
 }
 
-/* Imagens nas características */
 .caracteristica img {
-  width: 80px;
+  width: 80px; /* Consistente */
   height: auto;
   display: block;
   margin: 10px 0;
@@ -108,6 +108,5 @@ footer {
   font-size: 14px;
   color: #555555;
 }
-
 
 
